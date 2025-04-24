@@ -88,7 +88,6 @@ g++ q.cpp    -o q.exe    -std=c++17 -mwindows
 
 - `play.reg` must reference the full absolute path to `play.exe` when registering shell integration or context menu bindings.
 - Command-line parsing supports full Unicode paths (via `WideCharToMultiByte`).
-- `player.bat` can be used as a sample launcher or shortcut script.
 - Default UDP port: `7001`
 - Tested file formats include: `.mp3`, `.ogg`, `.flac`
 

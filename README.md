@@ -35,6 +35,7 @@ It is engineered for clean folder/file based queue control, channel upmixing, an
 - **Scrobbling**: Keeps limited playback history for previews.
 - **Channel Upmixing**: Automatically adapts audio to current output setup (via `Audio::Player`).
 - **Fail-safe Daemon**: Auto-starts `loud.exe` from clients if not already running.
+- **Supports `Windows`.
 
 ---
 
@@ -108,6 +109,7 @@ These enhancements are planned or under consideration:
 - [ ] Volume control over UDP
 - [ ] Playlist persistence between sessions
 - [ ] Add support for other files and playlists
+- [ ] Add support for systems other than Windows, maybe
 
 PRs welcome. Goals aim to keep it minimal, scriptable, and fast.
 

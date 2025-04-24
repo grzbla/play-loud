@@ -98,7 +98,6 @@ g++ q.cpp    -o q.exe    -std=c++17 -mwindows
 
 These enhancements are planned or under consideration:
 
-### 🔗 YouTube Playback Support
 - [ ] Add YouTube support in `play.exe`:
   - Detect URL input (e.g. `https://...youtube.com/watch?...`)
   - Resolve and stream audio directly or cache for local play

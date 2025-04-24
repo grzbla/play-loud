@@ -1,0 +1,63 @@
+Windows Registry Editor Version 5.00
+
+; === Root "Play" menu with subcommands ===
+[HKEY_CLASSES_ROOT\Directory\shell\PlayMenu]
+"MUIVerb"="Play"
+"SubCommands"="MyPlay.Loud;MyPlay.Queue;MyPlay.Next;MyPlay.Prev;MyPlay.Stop"
+"Icon"="\\cli\\play.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\PlayMenu]
+"MUIVerb"="Play"
+"SubCommands"="MyPlay.Loud;MyPlay.Queue;MyPlay.Next;MyPlay.Prev;MyPlay.Stop"
+"Icon"="\\cli\\play.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\PlayMenu]
+"MUIVerb"="Play"
+"SubCommands"="MyPlay.Loud;MyPlay.Queue;MyPlay.Next;MyPlay.Prev;MyPlay.Stop"
+"Icon"="\\cli\\play.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.flac\shell\PlayMenu]
+"MUIVerb"="Play"
+"SubCommands"="MyPlay.Loud;MyPlay.Queue;MyPlay.Next;MyPlay.Prev;MyPlay.Stop"
+"Icon"="\\cli\\play.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.ogg\shell\PlayMenu]
+"MUIVerb"="Play"
+"SubCommands"="MyPlay.Loud;MyPlay.Queue;MyPlay.Next;MyPlay.Prev;MyPlay.Stop"
+"Icon"="\\cli\\play.exe"
+
+; === Subcommand: Loud ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPlay.Loud]
+@="Loud"
+"Icon"="E:\\warsztat\\cli\\play.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPlay.Loud\command]
+@="\"\\cli\\play.exe\" \"%1\""
+
+; === Subcommand: Queue ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPlay.Queue]
+@="Queue"
+"Icon"="E:\\warsztat\\cli\\q.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPlay.Queue\command]
+@="\"\\cli\\q.exe\" \"%1\""
+
+; === Subcommand: Next ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPlay.Next]
+@="Next"
+"Icon"="E:\\warsztat\\cli\\play.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPlay.Next\command]
+@="\"\\cli\\play.exe\" n"
+
+; === Subcommand: Previous ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPlay.Prev]
+@="Previous"
+"Icon"="E:\\warsztat\\cli\\play.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPlay.Prev\command]
+@="\"E:\\warsztat\\cli\\play.exe\" p"
+
+; === Subcommand: Stop ===
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPlay.Stop]
+@="Stop"
+"Icon"="E:\\warsztat\\cli\\play.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPlay.Stop\command]
+@="\"E:\\warsztat\\cli\\play.exe\""
+

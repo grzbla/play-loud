@@ -93,6 +93,27 @@ g++ q.cpp    -o q.exe    -std=c++17 -mwindows
 
 ---
 
+## 🛠️ TODO
+
+These enhancements are planned or under consideration:
+
+### 🔗 YouTube Playback Support
+- [ ] Add YouTube support in `play.exe`:
+  - Detect URL input (e.g. `https://...youtube.com/watch?...`)
+  - Resolve and stream audio directly or cache for local play
+- [ ] Implement TCP/WebSocket layer for remote (LAN/WAN) control
+- [ ] Add basic HTTP/Web UI frontend to control `loud` via browser
+- [ ] Enable control from mobile or other PCs on the network
+- [ ] On-screen display popup (optional) to show current track
+- [ ] Volume control over UDP
+- [ ] Playlist persistence between sessions
+- [ ] Add support for other files and playlists
+
+PRs welcome. Goals aim to keep it minimal, scriptable, and fast.
+
+---
+
+
 ## 🧠 Credits
 
 Built with prompts by ChatGPT and Cursor, supervised by a human. Designed for composable, scriptable audio control without the bloat and within full AI grasp.

@@ -3,7 +3,7 @@
 
 `Play Loud` is a minimalist, headless audio daemon built for command-based playback over local UDP. It works in tandem with small CLI clients like `play` and `q`, allowing audio playback from any launcher, script, or custom tool.
 
-It is engineered for clean queue control, channel upmixing, and minimal footprint, running silently in the background without user-facing UI. It relies on [amazing miniaudio](https://github.com/mackron/miniaudio) which is included
+It is engineered for clean queue control, channel upmixing, and minimal footprint, running silently in the background without user-facing UI. It relies on [amazing miniaudio](https://github.com/mackron/miniaudio) which is included in the repo for fire and forget compilation.
 
 ---
 

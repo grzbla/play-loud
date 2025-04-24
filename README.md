@@ -10,11 +10,11 @@ It is engineered for clean folder/file based queue control, channel upmixing, an
 ## 🔧 Architecture
 
 ```
-        +-----------+     UDP     +-----------+
+        +-----------+     UDP    +-----------+
         |  play.exe | ---------> |           |
         |  q.exe    | ---------> |  loud.exe |
-        +-----------+           |  (daemon) |
-                                +-----------+
+        +-----------+            |  (daemon) |
+                                 +-----------+
 ```
 
 - `loud.exe`: Listens on UDP port `7001`, receives playback commands, manages audio queue and output.

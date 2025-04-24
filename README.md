@@ -1,9 +1,9 @@
 
 # 🎧 Play Loud — the headless UDP audio daemon
 
-`Play Loud` is a minimalist, headless audio daemon built for command-based playback over local UDP. It works in tandem with small CLI clients like `play` and `q`, allowing audio playback from any launcher, script, or custom tool.
+`Play Loud` is a minimalist, headless, audio daemon built for command-based playback over local UDP. It works in tandem with small CLI clients like `play` and `q`, allowing audio playback from any launcher, script, or custom tool.
 
-It is engineered for clean queue control, channel upmixing, and minimal footprint, running silently in the background without user-facing UI. It relies on [amazing miniaudio](https://github.com/mackron/miniaudio) which is included in the repo for fire and forget compilation.
+It is engineered for clean folder/file based queue control, channel upmixing, and minimal footprint, running silently in the background without user-facing UI. It relies on [amazing miniaudio](https://github.com/mackron/miniaudio) which is included in the repo for fire and forget compilation.
 
 ---
 
@@ -31,7 +31,7 @@ It is engineered for clean queue control, channel upmixing, and minimal footprin
   - Queue new audio files or folders while playing.
 - **Queue-aware**:
   - Tracks history (`n` for next, `p` for previous).
-  - Auto-resumes next track when tack playback ends.
+  - Continues next track when tack playback ends.
 - **Scrobbling**: Keeps limited playback history for previews.
 - **Channel Upmixing**: Automatically adapts audio to current output setup (via `Audio::Player`).
 - **Fail-safe Daemon**: Auto-starts `loud.exe` from clients if not already running.

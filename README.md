@@ -89,7 +89,7 @@ g++ q.cpp    -o q.exe    -std=c++17 -mwindows
 - Command-line parsing supports full Unicode paths (via `WideCharToMultiByte`).
 - `player.bat` can be used as a sample launcher or shortcut script.
 - Default UDP port: `7001`
-- Tested file formats include: `.mp3`, `.wav`, `.ogg`, `.flac`, `.aac`, `.wma`, `.m4a`
+- Tested file formats include: `.mp3`, `.ogg`, `.flac`
 
 ---
 

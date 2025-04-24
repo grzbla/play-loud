@@ -116,7 +116,7 @@ PRs welcome. Goals aim to keep it minimal, scriptable, and fast.
 
 ## 🧠 Credits
 
-Built with prompts by ChatGPT and Cursor, supervised by a human. Designed for composable, scriptable audio control without the bloat.
+Built with prompts by ChatGPT and Cursor, supervised by a human. Designed for composable, scriptable audio control without the bloat. I tried not to read the code.
 
 ---
 

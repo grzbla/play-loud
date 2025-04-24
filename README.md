@@ -129,6 +129,6 @@ Edit `play.reg` to reference your actual `play.exe` path:
 @="\"C:\\full\\path\\to\\play.exe\" \"%1\""
 ```
 
-Then run it via double-click or from your setup script.
+Then run it via double-click or from your setup script. Adding to PATH works too.
 
 ---

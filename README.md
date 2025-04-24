@@ -31,7 +31,7 @@ It is engineered for clean queue control, channel upmixing, and minimal footprin
   - Queue new audio files or folders while playing.
 - **Queue-aware**:
   - Tracks history (`n` for next, `p` for previous).
-  - Auto-resumes next track when playback ends.
+  - Auto-resumes next track when tack playback ends.
 - **Scrobbling**: Keeps limited playback history for previews.
 - **Channel Upmixing**: Automatically adapts audio to current output setup (via `Audio::Player`).
 - **Fail-safe Daemon**: Auto-starts `loud.exe` from clients if not already running.
@@ -62,7 +62,7 @@ q.exe path\to\folder
 ### Quit daemon:
 ```bash
 play.exe         # with no argument (stops playback)
-q.exe q          # sends quit signal to daemon
+play.exe/q.exe q          # sends quit signal to daemon
 ```
 
 ---
@@ -72,9 +72,6 @@ q.exe q          # sends quit signal to daemon
 ### Requirements
 - C++17 or higher
 - Windows + MinGW or MSVC
-- External dependencies:
-  - `net/udps.h`, `net/udpr.h` — lightweight UDP client/server
-  - `sys/audio.h` — audio backend abstraction (likely wrapping `miniaudio` or similar)
 
 ### Build example (MinGW):
 
